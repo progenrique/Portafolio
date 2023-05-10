@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="icon" type="image/png" href="imagen/portafolio.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" >
+        <div class="logo">
+            <img class="logo__img" src="imagen/portafolio.png" alt="">
+            <p class="logo__nombre">Jose Enrique Cervantes Carrasco</p>        
+        </div>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="barra_nav__link"><a href="#sobreMi" >Sobre mi</a></li>
+                <li class="barra_nav__link"><a href="#skills" >Skills</a></li>
+                <li class="barra_nav__link"><a href="#hobbies" >Hobbies</a></li>
+                <li class="barra_nav__link"><a href="#formacion" >Formacion</a></li>
+                <li class="barra_nav__link"><a href="#proyectos" >Proyectos</a></li>                
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li class="barra_nav__link"><a href="" target="_blank" rel="noopener noreferrer">cervantes.enri.0201@gmail.com</a></li> <!-- list-style: none; // en css es para quitar las viñetas -->       
+            </ul>            
+        </nav>        
+    </header>
+    <main>
+        <section class="presentacion">
+            <div class="presentacion__contenedor">
+                <div class="presentacion__texto">
+                    <h3 class="titulo titulo--no-centrado">Hola, Mi nombre es Jose Enrique Cervantes Carrasco y me dedico al desarrollo Web</h3>
+                    <p class="presentacion__parrafo">Estudie en el Instituto Politecnico Nacional y actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
+                    <nav>
+                    <ul class="navegacion__lista">
+                        <li class="barra_nav__link"><a href="https://github.com/progenrique" target="_blank" rel="noopener noreferrer">Github</a></li>
+                        <li class="barra_nav__link"><a href="https://www.linkedin.com/in/progenrique/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                        <li class="barra_nav__link"><a href="" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li class="barra_nav__link"><a href="" target="_blank" rel="noopener noreferrer">Curriculo</a></li>
+                    </ul>
+                </nav>
+                </div>
+                <img class="presentacion__foto" src="imagen/totoPerfil.jpg" alt="fotografia">
+            </div>            
+        </section>
+        <section class="sobreMi"> 
+            <div class="sobreMi__contenedor">
+                <h5 id="sobreMi" class="titulo titulo--no-centrado">Sobre mi</h5>
+                <p class="sobreMi__parrafo">"¡Hola! Mi nombre es José Enrique Cervantes Carrasco. Estudié la preparatoria en la Vocacional 4 del Instituto Politécnico Nacional y completé la carrera de instalaciones y mantenimiento eléctrico. Luego, comencé a estudiar ingeniería en computación en la ESIME Culhuacán del IPN, aunque solo completé hasta el cuarto semestre. <br> <br>
+
+                    Durante los últimos nueve años, trabajé en una fábrica de plásticos en el área de producción, donde pude ascender hasta convertirme en encargado de turno. <br> <br>
+                    
+                    Actualmente, estoy estudiando programación en el área de front-end a través de Oracle ONE de Alura Latam y estoy muy emocionado de continuar aprendiendo y creciendo en mi carrera.                
+                    He descubierto que puedo adaptarme bien a los cambios y que tengo un buen manejo de la atención al cliente. <br> <br>
+                    
+                    Cuando estudio o practico cosas que me gustan, aprendo más rápido y me comprometo con los proyectos. Mi objetivo a largo plazo es dedicarme al diseño web full-stack y poder vivir de ello.
+                    Gracias por tomarte el tiempo de leer un poco más sobre mí. ¡Espero poder trabajar juntos en el futuro!"
+                </p>
+                <img src="imagen/firma.png" alt="" class="sobreMi__firma">
+            </div>            
+        </section>
+        <section class="skills-hobies">            
+            <div class="tarjetas__contenedor">
+                <h3 id="skills" class="titulo titulo--centrado">Skills</h3>
+                <ul class="tarjetas__ul">
+                    <li class="tarjetas tarjetas--html "> Html 5</li>
+                    <li class="tarjetas tarjetas--js">Javascript</li>
+                    <li class="tarjetas tarjetas--css">CSS</li>
+                    <li class="tarjetas tarjetas--react">React</li>
+                </ul>
+            </div>
+            <div class="tarjetas__contenedor">
+                <h3 id="hobbies" class="titulo titulo--centrado">Hobbies</h3>
+                <ul class="tarjetas__ul">
+                    <li class="tarjetas tarjetas--bici "> Bicicleta</li>
+                    <li class="tarjetas tarjetas--cine">Cine</li>
+                    <li class="tarjetas tarjetas--musica">Escuchar musica</li>
+                    <li class="tarjetas tarjetas--game">Videojuegos</li>
+                </ul>
+            </div>
+        </section>
+        <section class="Formacion">
+            <div class="formacion__container">
+                <h3 id="formacion" class="titulo titulo--centrado">Formacion academica </h3>
+                <div class="formacion__container-img">
+                    <img src="imagen/cecyt4.jpg" alt="" class="formacion__img">
+                    <img src="imagen/esime.png" alt="" class="formacion__img">
+                    <img src="imagen/imgalura.png" alt="" class="formacion__img">
+                </div>
+                <div class="formacion__container-texto">
+                    <p class="formacion__texto">Instalaciones y Mto electrico</p>
+                    <p class="formacion__texto">Ing. Computacion</p>
+                    <p class="formacion__texto">Font-End</p>
+                </div>
+                <div class="formacion__container-texto">
+                    <p class="formacion__texto formacion__texto--fechas ">2010- CECYT4 IPN</p>
+                    <p class="formacion__texto formacion__texto--fechas">2014 ESIME Culhuacan</p>
+                    <p class="formacion__texto formacion__texto--fechas">Actual Alura Latam</p>
+                </div>
+            </div>
+        </section>
+        <section class="experiancia">
+            <h3 id="proyectos" class="titulo">Proyectos</h3>
+            <div class="experiancia__container">                
+                <img class="encriptador__img" src="imagen/encriptador.png" alt="">
+                <div class="encriptador-descripcion">
+                    <p class="encriptador__texto">Encriptador</p>
+                    <p class="encriptador__texto encriptador__texto--descripcion">Challen Oracle</p>
+                    <div class="encriptador__btn">
+                        <a rel="noopener noreferrer" target="_blank" class="encriptador__link" href="https://github.com/progenrique/Encriptador"><p>Repositorio</p></a>
+                        <a rel="noopener noreferrer" target="_blank" class="encriptador__link encriptador__link--azul" href="https://progenrique.github.io/Encriptador/"><p>Ver demo</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto__container">
+                <img class="contacto__img" src="/imagen/contacto.png" alt="">
+                <fieldset class="contacto__texto">
+                    <legend class="titulo titulo--no-centrado">Contacto</legend>
+                    <p class="contacto__parrafo">¿Quieres contactarme? <br> <br>
+                        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                    <form class="contacto__formulario" >
+                        <label class="contacto__label" for="nombre">Nombre</label>
+                        <input class="contacto__input"  id="nombre" type="text">
+
+                        <label class="contacto__label" for="email">Email</label>
+                        <input class="contacto__input" id="email" type="email">
+
+                        <label class="contacto__label" for="asunto">Asunto</label>
+                        <input class="contacto__input" id="asunto" type="text">
+
+                        <label class="contacto__label" for="menjase">Mensaje</label>
+                        <input class="contacto__input contacto__input--mensaje" id="Mensaje" type="text">
+
+                        <button  class="boton">Enviar mensaje</button>
+                    </form>
+                </fieldset>                
+            </div>
+        </section>        
+        <footer >
+            <div class="footer__container">                 
+                <p>Desarrollado por Jose Enrique Cervantes Carrasco</p>
+                <br> 2023
+            </div>           
+        </footer>
+    </main>    
+</body>
+</html>
