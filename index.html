@@ -38,7 +38,7 @@
             <div class="presentacion__contenedor">
                 <div class="presentacion__texto">
                     <h3 class="titulo titulo--no-centrado">Hola, Mi nombre es Jose Enrique Cervantes Carrasco y me dedico al desarrollo Web</h3>
-                    <p class="presentacion__parrafo">Estudie en el Instituto Politecnico Nacional y actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
+                    <p class="presentacion__parrafo"> Tengo 34 años y resido en Mexico,Estudie en el Instituto Politecnico Nacional actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
                     <nav>
                     <ul class="navegacion__lista">
                         <li class="barra_nav__link"><a href="https://github.com/progenrique" target="_blank" rel="noopener noreferrer">Github</a></li>
@@ -128,20 +128,25 @@
                     <legend class="titulo titulo--no-centrado">Contacto</legend>
                     <p class="contacto__parrafo">¿Quieres contactarme? <br> <br>
                         Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                    <form class="contacto__formulario" >
+                    <form class="contacto__formulario" data-formulario >
                         <label class="contacto__label" for="nombre">Nombre</label>
-                        <input class="contacto__input"  id="nombre" type="text">
+                        <input class="contacto__input" name="nombre"  id="nombre" type="text" required data-input-nombre>
+                        <p class="error errorNombre"></p>
 
                         <label class="contacto__label" for="email">Email</label>
-                        <input class="contacto__input" id="email" type="email">
+                        <input class="contacto__input" name="email" id="email" type="email" required data-input-email>
+                        <p class="error errorEmail"></p>
 
                         <label class="contacto__label" for="asunto">Asunto</label>
-                        <input class="contacto__input" id="asunto" type="text">
+                        <input class="contacto__input" name="asunto" id="asunto" type="text" required data-input-asunto>
+                        <p class="error errorAsunto"></p>
 
                         <label class="contacto__label" for="menjase">Mensaje</label>
-                        <input class="contacto__input contacto__input--mensaje" id="Mensaje" type="text">
+                        <input class="contacto__input contacto__input--mensaje" name="contacto" required id="Mensaje" type="text" data-input-mensaje>
+                        <p class="error errorMensaje"></p>
 
-                        <button  class="boton">Enviar mensaje</button>
+                        <button  class="boton" data-boton>Enviar mensaje</button>
+                        
                     </form>
                 </fieldset>                
             </div>
@@ -152,6 +157,9 @@
                 <br> 2023
             </div>           
         </footer>
-    </main>    
+    </main>
+    <script src="/indes.js"></script>   
+    <script src="/formulario.js"></script>    
+
 </body>
 </html>
